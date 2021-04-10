@@ -104,12 +104,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mxshop',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        # 'HOST': '192.168.56.101',  # 公司
-        # 'PORT': 3306,
-        'HOST': '192.168.0.158',   # 家
-        'PORT': 3307,
+        'USER': 'USER',
+        'PASSWORD': 'PASSWORD',
+        'HOST': 'HOST',  # 公司
+        'PORT': 3306,
         'OPTIONS': {'init_command': 'SET default_storage_engine=INNODB;'}  # 修改mysql默认引擎
     }
 }
